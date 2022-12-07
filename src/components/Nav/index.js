@@ -1,6 +1,6 @@
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import React, { useEffect } from 'react';
-
+// start 1.4.7
 function Nav(props) {
   const {
     categories = [],

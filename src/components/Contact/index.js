@@ -1,4 +1,3 @@
-// start 1.4.6
 import React, {useState} from 'react';
 import {validateEmail} from '../../utils/helpers';
 
@@ -39,7 +38,7 @@ function ContactForm() {
 
  return (
      <section>
-         <h1>Contact me</h1>
+         <h1 data-testid="contactH1Tag">Contact me</h1>
          <form id="contact-form" onSubmit={handleSubmit}>
          <div>
             <label htmlFor="name">Name:</label>
@@ -58,7 +57,7 @@ function ContactForm() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
-            <button type="submit">Submit</button>
+            <button data-testid="submitButton" type="submit">Submit</button>
          </form>
      </section>
  )
