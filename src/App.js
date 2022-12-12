@@ -3,7 +3,7 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
 import React, { useState } from 'react';
-
+// 1.5.6
 function App() { 
   const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
