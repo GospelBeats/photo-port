@@ -2,7 +2,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import React, { useState } from 'react';
-
+// 1.5.6
 function App() { 
   const [categories] = useState([
     {
